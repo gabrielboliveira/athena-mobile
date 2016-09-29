@@ -1,0 +1,21 @@
+<ion-view view-title="Livros">
+    <ion-nav-buttons side="right">
+        <button class="button button-clear button-positive" ng-click="renovarTudo()">
+            Renovar Tudo
+        </button>
+    </ion-nav-buttons>
+    <ion-content>
+        <ion-refresher pulling-text="Puxe para atualizar..."
+                        on-refresh="carregar()">
+        </ion-refresher>
+        <ion-list ng-show="showBooks">
+            <ion-item class="item item-remove-animate item-text-wrap" ng-repeat="book in books">
+                <h2>{{book.titulo}}</h2>
+                <p>Devolver em: {{book.data}}</p>
+                <ion-option-button class="button-positive" ng-click="renovar(book)">
+                    Renovar
+                </ion-option-button>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

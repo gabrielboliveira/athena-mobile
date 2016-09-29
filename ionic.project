@@ -1,0 +1,12 @@
+{
+  "name": "athenamobile",
+  "app_id": "06ff5f9f",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
