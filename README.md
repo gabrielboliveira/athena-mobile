@@ -3,6 +3,7 @@ Athena Mobile é um aplicativo desenvolvido com o Ionic Framework para renovar o
 
 ## TO DO
 - [X] Adicionar mensagens de erro.
+- [ ] Melhorar os ícones.
 - [ ] Testar com múltiplos livros.
 - [ ] Escrever o Sobre.
 - [ ] Publicar em algum lugar.
